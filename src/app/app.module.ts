@@ -1,3 +1,4 @@
+import { SlideDrawerComponent } from './slide-drawer/slide-drawer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
