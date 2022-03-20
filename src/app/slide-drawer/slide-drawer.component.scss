@@ -10,5 +10,12 @@ ion-card {
 }
 
 ion-card-content {
-  min-height: 500px;
+  min-height: auto;
+}
+
+.list-scroll {
+  font-size: 20px;
+  height: 200px;
+  overflow-y: scroll;
+  padding: 0 20px;
 }

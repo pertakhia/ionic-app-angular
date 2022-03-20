@@ -1,4 +1,17 @@
 <ion-card>
   <ion-card-header> test </ion-card-header>
   <ion-card-content>Gesture</ion-card-content>
+  <div class="list-scroll" (touchmove)="onLogPan($event)" #touchEvent>
+    <ion-list>
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia est
+        consequuntur distinctio tempore placeat rerum, iste eum reprehenderit
+        soluta dolore. Error quisquam aspernatur saepe maiores, fugiat nostrum
+        nobis perferendis laudantium? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Adipisci dolorum consectetur porro in modi aliquid
+        magni corrupti facere vero cupiditate quam, illum repellat laboriosam
+        quaerat similique assumenda, at optio earum!
+      </div>
+    </ion-list>
+  </div>
 </ion-card>

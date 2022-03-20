@@ -4,3 +4,12 @@ ion-content {
 ion-list {
   --background: #f1eeee;
 }
+
+.pan {
+  display: inline-block;
+  overflow-y: scroll;
+  max-height: 88px;
+  padding: 20px;
+  background: greenyellow;
+  color: black;
+}

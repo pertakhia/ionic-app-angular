@@ -31,6 +31,10 @@ export class RecipesPage implements OnInit, OnDestroy {
     console.log('ionViewDidLeave');
   }
 
+  onPan(event) {
+    console.log('event paan', event);
+  }
+
   ngOnDestroy(): void {
     console.log('destroy');
   }
